@@ -27,5 +27,5 @@ if [ ! -d "/server/NWX/Binaries/Win64" ] || [[ $AutoUpdate == "true" ]]; then
 fi
 
 pushd /server/NWX/Binaries/Win64 > /dev/null
-wine NWXServer-Win64-Shipping.exe -PORT=$Port
+wine NWXServer-Win64-Shipping.exe -log
 popd > /dev/null
